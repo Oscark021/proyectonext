@@ -2,9 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import Navbar from '../Components/Navbar'
+import FlexCard from '../Components/Flex-card'
 
 export default function Home() {
+
+  const cards = [{ src: '/img/historia.jpg' }, { src: '/img/historia.jpg' }, { src: '/img/historia.jpg' }]
+
   return (
     <div className={styles.container}>
       <Head>
@@ -13,6 +16,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+
+
+        <div className="carousel-img">
+          { cards.map((card, index) => (
+            <FlexCard imgSrc={ card.src } />
+          )) }
+        </div>
         
       </main>
 
