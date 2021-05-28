@@ -9,7 +9,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          ©2021, MasterClass By EquipoNosotros S.A de C.V{' '}
           <span className={styles.logo}>
             
           </span>

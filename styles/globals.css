@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+   background: crimson; 
 }
 
 a {
@@ -18,7 +19,12 @@ nav{
   display: flex;
   flex-direction: row;
   padding: 16px;
+  border: rgb(5, 4, 2);
+  background: orange;
+  font-family: cursive;
+  
 }
 nav a{
   margin-left: 16px;
+  
 }
