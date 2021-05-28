@@ -26,5 +26,19 @@ nav{
 }
 nav a{
   margin-left: 16px;
-  
+}
+
+.carousel-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.card-container {
+}
+
+.card-container img {
+  height: 300px;
 }
