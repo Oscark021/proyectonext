@@ -6,7 +6,7 @@ import FlexCard from '../Components/Flex-card'
 
 export default function Home() {
 
-  const cards = [{ src: '/img/historia.jpg' }, { src: '/img/historia.jpg' }, { src: '/img/historia.jpg' }]
+  const cards = [{ src: '/img/historia.jpg' }, { src: '/img/español.jpg' }, { src: '/img/ciencias.jpg' }]
 
   return (
     <div className={styles.container}>
@@ -17,6 +17,9 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
+        <div className="slid-img">
+          <img src="/escuela.jpg"/>
+        </div>
 
 
         <div className="carousel-img">
