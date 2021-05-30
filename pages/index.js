@@ -24,7 +24,7 @@ export default function Home() {
             <FlexCard imgSrc={ card.src } />
           )) }
         </div>
-        <div className="Text">
+        <div className="text">
             ¡Elige entre miles de cursos gratuitos y en vivo todos los días!
         </div>
 
