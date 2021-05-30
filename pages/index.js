@@ -7,6 +7,7 @@ import FlexCard from '../Components/Flex-card'
 export default function Home() {
 
   const cards = [{ src: '/img/historia.jpg' }, { src: '/img/español.jpg' }, { src: '/img/ciencias.jpg' }]
+  const car = [{ src: '/princi.jpg' }]
 
   return (
     <div className={styles.container}>
@@ -17,8 +18,14 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
+
         <div className="slid-img">
-          <img src="/escuela.jpg"/>
+          { car.map((card, index) => (
+            <FlexCard imgSrc={ card.src } />
+          )) }
+        </div>
+        <div className="Text">
+            ¡Elige entre miles de cursos gratuitos y en vivo todos los días!
         </div>
 
 

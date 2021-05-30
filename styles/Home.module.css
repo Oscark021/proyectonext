@@ -24,16 +24,24 @@
   height: 100px;
   border-top: 1px solid #eaeaea;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: cursive;
+  justify-content: left;
+  align-items: left;
+  font-family: 'century gothic',sans-serif;
+  background: khaki;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 3cm;
+
 }
 
 .footer a {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   flex-grow: 1;
+  margin-top: 1cm;
+  color: coral;
+
 }
 
 .title a {
