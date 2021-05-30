@@ -7,7 +7,7 @@ const Navbar = () => {
             <Link href="/matery"><a> Materias |</a></Link>
             <Link href="/horary"><a> Horarios |</a></Link>
             <Link href="/didactic"><a>Material didactico |</a></Link>
-            <Link href="/didactic"><a>Iniciar sesion</a></Link>
+            <Link href="/login"><a>Iniciar sesion</a></Link>
         </nav>
     );
     
