@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-   background: crimson; 
+    background: ButtonFace;
 }
 
 a {
@@ -20,8 +20,9 @@ nav{
   flex-direction: row;
   padding: 16px;
   border: rgb(5, 4, 2);
-  background: orange;
-  font-family: cursive;
+  background: linear-gradient(to left, khaki, orange);
+  font-family: 'century gothic',sans-serif;
+  font-weight: bold;
   
 }
 nav a{
@@ -34,6 +35,7 @@ nav a{
   align-items: center;
   justify-content: space-around;
   width: 100%;
+  margin-top: 1cm;
 }
 
 .card-container {
@@ -41,4 +43,19 @@ nav a{
 
 .card-container img {
   height: 300px;
+}
+.slid-img {
+display:flex;
+flex-direction: row;
+align-items: center;
+width: 450px;
+height: 10px;
+margin-top: 8cm;
+}
+.Text{
+  margin-top: 5cm;
+  font-family: 'century gothic',sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(248, 134, 4);
 }
