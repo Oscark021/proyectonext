@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 
+import Link from 'next/link'
+
 export default function Matery() {
   return (
     <div className={styles.container}>
@@ -11,10 +13,62 @@ export default function Matery() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>Yo soy el Matery</h1>
-      </main>
+      <nav className="navm">
+            <Link href="/"><a>Mis materias |</a></Link>
+            <Link href="/matery"><a> Mis clases |</a></Link>
+            <Link href="/horary"><a> Mis carpetas |</a></Link>
+            <Link href="/didactic"><a>Material de estudio |</a></Link>
+            <Link href="/login"><a>Profesores</a></Link>
+        </nav>
 
-      
+
+        <div className="box">
+          <div>
+            <img src="/img/history.jpg"/>
+          </div>
+          <div>
+          <p className="titulo"> Historia</p>
+          <div>
+          <p className="parrafos" > De 2pm a 4pm, Docente: Oscar Velasco 
+          <br></br>
+          Lunes, miércoles, viernes
+          <br></br>
+          De 5pm a 7pm, Docente: Paola Bernal
+          <br></br>
+          Martes, jueves
+          <br></br><br></br>
+          <p className="boton"> Donar a esta materia </p>
+          </p>
+          </div>
+          </div>
+        </div>
+        <div className="boxs">
+          <h1>Seleccionar horarios disponibles</h1>
+          <div>
+          <p className="parrafoss" > De 2pm a 4pm, Docente: Oscar Velasco 
+          <br></br>
+          Lunes, miércoles, viernes
+          <br></br>
+          4.5 *** (288 calificaciones) 743 estudiantes
+          <p className="botton">Ir al curso en vivo</p>
+          </p>
+          
+          </div>
+          <div>
+          <p className="parrafossd" > De 5pm a 7pm, Docente: Paola Bernal 
+          <br></br>
+          Lunes, miércoles, viernes
+          <br></br>
+          4.8 *** (341 calificaciones) 715 estudiantes
+          <p className="botonn">Ir al curso en vivo</p>
+          </p>
+          
+          <br></br>
+          
+          </div>
+        </div>
+
+      </main>
     </div>
   )
 }
