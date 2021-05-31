@@ -60,3 +60,85 @@ margin-top: 8cm;
   color: rgb(230, 97, 45);
   
 }
+.navm{
+margin-top: 2.3cm;
+background: rgb(197, 182, 248);
+color: rgb(49, 0, 139);
+font-size: 15px;
+font-weight: bold;
+}
+
+.box{
+  margin-top: 1cm;
+    display: flex;
+    flex-flow: row wrap;
+}
+.titulo{
+  font-family: 'century gothic',sans-serif;
+  font-weight: bold;
+  font-size: 55px;
+  color: rgb(51, 3, 182);
+}
+.parrafos{
+  font-family: 'century gothic',sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  color: rgb(68, 67, 67);
+}
+.boton{
+background: rgb(255, 80, 80);
+border-radius: 10px;
+color: rgb(248, 202, 186);
+font-weight: bold;
+width: 300px;
+text-align: center;
+border-color: rgb(51, 23, 38);
+border: 1px mm;
+}
+.boxs{
+    display: flex;
+    flex-flow: row wrap;
+}
+.parrafoss{
+  text-align: center;
+  margin-top:.50cm;
+  margin-right: 14cm;
+  font-family: 'century gothic',sans-serif;
+  background: rgb(252, 199, 102);
+  border-radius: 7px;
+  font-size: 17px;
+
+}
+.parrafossd{
+  text-align: center;
+  margin-top: -3.3cm;
+  margin-left: 16cm;
+  font-family: 'century gothic',sans-serif;
+  background: rgb(252, 199, 102);
+  border-radius: 7px;
+  font-size: 17px;
+}
+.botton{
+  background: rgb(255, 121, 80);
+  border-radius: 5px;
+  color: rgb(247, 221, 212);
+  font-weight: bold;
+  width: 350px;
+  text-align: center;
+  border-color: rgb(51, 23, 38);
+  border: 1px mm;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+  
+}
+.botonn{
+  background: rgb(255, 121, 80);
+  border-radius: 5px;
+  color: rgb(247, 221, 212);
+  font-weight: bold;
+  width: 350px;
+  text-align: center;
+  border-color: rgb(51, 23, 38);
+  border: 1px mm;
+  font-family: 'century gothic',sans-serif;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+}
